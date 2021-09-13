@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="res/css/style.css">
+    <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+            rel="stylesheet">
     <meta charset="UTF-8">
     <title>YourTube</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <header>
-    <nav>
+    <nav class="x">
         <div>
             <img src="res/images/logo.png" alt="YourTube">
         </div>
-        <div>
+        <div class="search-container">
             <input type="text"><button>Search</button>
         </div>
         <div></div>
@@ -19,7 +23,7 @@
 </header>
 
 <section>
-    <div>
+    <div class="video-container">
         <video width="320" height="240" controls>
             <source src="res/media/video.mp4" type="video/mp4">
             <source src="res/media/video.ogg" type="video/ogg">
@@ -27,8 +31,11 @@
         </video>
         <h1>Drunk coding tutorial #12</h1>
         <h6>Date: Sep 16, 2019 14:15</h6>
+        <form class="y">
+            <input class="z" type="text" value="Your comment...">
+        </form>
     </div>
-    <div>
+    <div class="suggested-container">
         <h3>Suggested</h3>
         <ul>
             <li>
